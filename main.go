@@ -170,7 +170,7 @@ func handleUpdateBook(w http.ResponseWriter, r *http.Request) {
 				}
 				// write books in books.json
 				err = saveBooks(books)
-				// send server error as response
+			
 				if err != nil {
 					log.Printf("Server Error %v\n", err)
 					w.WriteHeader(500)
