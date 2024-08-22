@@ -1,7 +1,7 @@
 
 # Bookstore REST API
 
-This is REST based API to list, add, update and delete books in golang.
+This is REST API to list, add, update and delete books in golang.
 
 ### Build and run
 
